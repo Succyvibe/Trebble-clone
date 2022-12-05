@@ -45,10 +45,9 @@ export default {
 
 <style scoped>
 .header-wrapper {
-  opacity: 1;
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-  transform-style: preserve-3d;
+  animation: slideIn 0.5s ease-out forwards;
+  opacity: 0;
+
   margin-right: auto;
   margin-left: auto;
   -webkit-box-orient: vertical;
@@ -73,5 +72,16 @@ export default {
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 </style>
