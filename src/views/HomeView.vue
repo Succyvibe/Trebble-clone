@@ -6,6 +6,7 @@
     <ApiRequest />
     <GetStarted />
     <Testimonial />
+    <Enroll />
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import Sponsors from "@/components/Sponsors.vue";
 import ApiRequest from "@/components/ApiRequest.vue";
 import GetStarted from "@/components/GetStarted.vue";
 import Testimonial from "@/components/Testimonial.vue";
+import Enroll from "@/components/Enroll.vue";
 
 export default {
   name: "HomeView",
@@ -27,6 +29,7 @@ export default {
     ApiRequest,
     GetStarted,
     Testimonial,
+    Enroll,
   },
 };
 </script>
