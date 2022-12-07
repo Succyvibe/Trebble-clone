@@ -1,5 +1,5 @@
 <template>
-  <section class="my-20 bg-[#f9fafc]">
+  <section class="mt-20 bg-[#f9fafc]">
     <div class="container mx-auto">
       <div class="w-[85%] max-w-[1120px] mx-auto py-[140px]">
         <div class="flex flex-col lg:flex-row md:justify-between items-center">

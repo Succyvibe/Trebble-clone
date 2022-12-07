@@ -4,6 +4,8 @@
     <ScrollTablet />
     <Sponsors />
     <ApiRequest />
+    <GetStarted />
+    <Testimonial />
   </div>
 </template>
 
@@ -13,6 +15,8 @@ import HeroSection from "@/components/HeroSection.vue";
 import ScrollTablet from "@/components/ScrollTablet.vue";
 import Sponsors from "@/components/Sponsors.vue";
 import ApiRequest from "@/components/ApiRequest.vue";
+import GetStarted from "@/components/GetStarted.vue";
+import Testimonial from "@/components/Testimonial.vue";
 
 export default {
   name: "HomeView",
@@ -21,6 +25,8 @@ export default {
     ScrollTablet,
     Sponsors,
     ApiRequest,
+    GetStarted,
+    Testimonial,
   },
 };
 </script>
