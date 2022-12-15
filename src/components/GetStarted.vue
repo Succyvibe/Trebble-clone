@@ -9,9 +9,61 @@
         </h2>
         <div>
           <div
-            class="w-full max-w-[720px] mb-[32px] p-[20px] flex items-center rounded-[3px] bg-white shadow-[0 10px 60px 0 hsl(0]"
+            class="w-full max-w-[720px] mb-[32px] bg-white px-[40px] py-[18px] flex items-center rounded-[3px] bg-white shadow-[0 10px 60px 0 hsl(0)]"
+            data-aos="fade-right"
           >
-            <h3 class="blue-bg">1</h3>
+            <div class="w-[30%]">
+              <div class="bg-blue-800 w-[70%]">
+                <h3 class="text-white font-bold text-3xl">1</h3>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="flex flex-col gap-4">
+                <h3 class="text-2xl font-bold">Download our SDK to your API</h3>
+                <p class="text-gray-400 font-medium text-[18px]">
+                  We support more than 17 different platforms including JS, PHP,
+                  Laravel, .NET, Strapi, Cloudflare workers and others
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full max-w-[720px] xl:ml-[200px] mb-[32px] bg-white px-[40px] py-[18px] flex items-center rounded-[3px] bg-white shadow-[0 10px 60px 0 hsl(0)]"
+            data-aos="fade-right"
+          >
+            <div class="w-[30%]">
+              <div class="bg-blue-800 w-[70%]">
+                <h3 class="text-white font-bold text-3xl">1</h3>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="flex flex-col gap-4">
+                <h3 class="text-2xl font-bold">Download our SDK to your API</h3>
+                <p class="text-gray-400 font-medium text-[18px]">
+                  We support more than 17 different platforms including JS, PHP,
+                  Laravel, .NET, Strapi, Cloudflare workers and others
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full max-w-[720px] xl:ml-[400px] mb-[32px] bg-white px-[40px] py-[18px] flex items-center rounded-[3px] bg-white shadow-[0 10px 60px 0 hsl(0)]"
+            data-aos="fade-right"
+          >
+            <div class="w-[30%]">
+              <div class="bg-blue-800 w-[70%]">
+                <h3 class="text-white font-bold text-3xl">1</h3>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="flex flex-col gap-4">
+                <h3 class="text-2xl font-bold">Download our SDK to your API</h3>
+                <p class="text-gray-400 font-medium text-[18px]">
+                  We support more than 17 different platforms including JS, PHP,
+                  Laravel, .NET, Strapi, Cloudflare workers and others
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -20,6 +72,11 @@
 </template>
 
 <script>
+import AOS from "aos";
+AOS.init({
+  offset: 400,
+  duration: 800,
+});
 export default {
   name: "GetStarted",
 };

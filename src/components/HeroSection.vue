@@ -1,9 +1,9 @@
 <template>
   <section>
     <div
-      class="md:w-[90%] mx-auto md:pt-[80px] pr-[50px] pl-[50px] max-w-7xl flex flex-col justify-between"
+      class="md:w-[90%] h-[86vh] mx-auto md:pt-[80px] pr-[50px] pl-[50px] max-w-7xl flex flex-col justify-between"
     >
-      <div>
+      <div class="h-full flex flex-col items-center justify-center">
         <div class="max-w-full header-wrapper">
           <h2
             class="center-h2-heading text-[36px] md:text-[58px] lg:text-[64px] mb-[40px] text-center"

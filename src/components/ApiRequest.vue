@@ -1,7 +1,13 @@
 <template>
   <section class="mt-20 bg-[#f9fafc]">
     <div class="container mx-auto">
-      <div class="w-[85%] max-w-[1120px] mx-auto py-[140px]">
+      <div
+        class="w-[85%] max-w-[1120px] mx-auto pt-[140px]"
+        data-aos="slide-up"
+        data-aos-ease="ease"
+        data-aos-duration="1500"
+        data-aos-delay="1000"
+      >
         <div class="flex flex-col lg:flex-row md:justify-between items-center">
           <div
             class="img-wrapper relative flex w-[50%] h-full max-w-[430px] p-[35px] flex-col"
@@ -38,7 +44,13 @@
       </div>
 
       <!-- =========================second==row================================ -->
-      <div class="w-[85%] max-w-[1120px] mx-auto py-[140px]">
+      <div
+        class="w-[85%] max-w-[1120px] mx-auto pt-[50px]"
+        data-aos="slide-up"
+        data-aos-ease="ease"
+        data-aos-duration="1500"
+        data-aos-delay="1000"
+      >
         <div class="flex flex-col lg:flex-row md:justify-between items-center">
           <div
             class="w-[50%] max-w-[490px] flex flex-col items-center justify-center"
@@ -75,7 +87,13 @@
       </div>
 
       <!-- =======================================================tHIRD==ROW======================== -->
-      <div class="w-[85%] max-w-[1120px] mx-auto py-[140px]">
+      <div
+        class="w-[85%] max-w-[1120px] mx-auto pt-[50px]"
+        data-aos="slide-up"
+        data-aos-ease="ease"
+        data-aos-duration="1500"
+        data-aos-delay="1000"
+      >
         <div class="flex flex-col lg:flex-row md:justify-between items-center">
           <div
             class="img-wrapper relative flex w-[50%] h-full max-w-[430px] p-[35px] flex-col"
@@ -111,7 +129,13 @@
       </div>
 
       <!-- =============================================================FOURTH================================== -->
-      <div class="w-[85%] max-w-[1120px] mx-auto py-[140px]">
+      <div
+        class="w-[85%] max-w-[1120px] mx-auto pt-[50px]"
+        data-aos="slide-up"
+        data-aos-ease="ease"
+        data-aos-duration="1500"
+        data-aos-delay="1000"
+      >
         <div class="flex flex-col lg:flex-row md:justify-between items-center">
           <div
             class="w-[50%] max-w-[490px] flex flex-col items-center justify-center"
@@ -147,7 +171,13 @@
       </div>
 
       <!-- ========================================================FIFTH===ROW=========================== -->
-      <div class="w-[85%] max-w-[1120px] mx-auto py-[140px]">
+      <div
+        class="w-[85%] max-w-[1120px] mx-auto pt-[50px]"
+        data-aos="slide-up"
+        data-aos-ease="ease"
+        data-aos-duration="1500"
+        data-aos-delay="1000"
+      >
         <div class="flex flex-col lg:flex-row md:justify-between items-center">
           <div
             class="img-wrapper relative flex w-[50%] h-full max-w-[430px] p-[35px] flex-col"
@@ -183,7 +213,13 @@
       </div>
 
       <!-- ==========================================SIXTH===ROW======================= -->
-      <div class="w-[85%] max-w-[1120px] mx-auto py-[140px]">
+      <div
+        class="w-[85%] max-w-[1120px] mx-auto pt-[50px]"
+        data-aos="slide-up"
+        data-aos-ease="ease"
+        data-aos-duration="1500"
+        data-aos-delay="1000"
+      >
         <div class="flex flex-col lg:flex-row md:justify-between items-center">
           <div
             class="w-[50%] max-w-[490px] flex flex-col items-center justify-center"
@@ -222,8 +258,13 @@
 </template>
 
 <script>
+import AOS from "aos";
 export default {
   name: "ApiRequest",
+  render: (h) => h(App),
+  mounted() {
+    AOS.init();
+  },
 };
 </script>
 

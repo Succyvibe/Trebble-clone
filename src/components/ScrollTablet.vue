@@ -1,6 +1,6 @@
 <template>
-  <section class="my-20">
-    <div class="container mx-auto">
+  <section class="mb-20 h-full overflow-hidden">
+    <div class="container mx-auto" data-aos="flip-down">
       <div class="flex justify-center">
         <img
           src="https://uploads-ssl.webflow.com/632b4064ad80128baa5e2d27/638633e48f03b7f7329f05e3_hero-home.png"
@@ -24,6 +24,11 @@
 </template>
 
 <script>
+import AOS from "aos";
+AOS.init({
+  // offset: 200,
+  duration: 1000,
+});
 export default {
   name: "ScrollTablet",
 };

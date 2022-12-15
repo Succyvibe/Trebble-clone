@@ -7,6 +7,7 @@
     <GetStarted />
     <Testimonial />
     <Enroll />
+    <Footer />
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import ApiRequest from "@/components/ApiRequest.vue";
 import GetStarted from "@/components/GetStarted.vue";
 import Testimonial from "@/components/Testimonial.vue";
 import Enroll from "@/components/Enroll.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: "HomeView",
@@ -30,6 +32,7 @@ export default {
     GetStarted,
     Testimonial,
     Enroll,
+    Footer,
   },
 };
 </script>

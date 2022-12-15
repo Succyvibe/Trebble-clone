@@ -1,8 +1,16 @@
 <template>
-  <section class="bg-[#0047bb] w-full max-w-full xl:h-[650px] mb-20">
+  <section
+    class="bg-[#0047bb] w-full max-w-full xl:h-[650px] mb-20 relative group"
+  >
+    <div
+      className="absolute top-0  -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-l from-transparent to-blue-500 opacity-40 group-hover:animate-shine"
+    />
     <div class="w-full h-full flex justify-center items-center">
       <div
-        class="w-[90%] max-w-[1260px] mx-auto bg-[#f0f2f7] flex flex-col lg:flex-row pb-3 pt-5 px-5"
+        class="w-[90%] max-w-[1260px] mx-auto bg-[#f0f2f7] flex flex-col lg:flex-row pb-3 pt-5 px-5 group-hover:shadow-xl transition-shadow duration-300 ease-in-out"
+        data-aos="zoom-in"
+        data-aos-duration="800"
+        data-aos-easing="ease"
       >
         <div class="flex-1 p-20">
           <div class="">

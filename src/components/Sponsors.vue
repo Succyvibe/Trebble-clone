@@ -1,7 +1,7 @@
 <template>
-  <section class="my-20">
-    <div class="">
-      <div class="grid grid-flow-col items-center overflow-x-auto">
+  <section class="h-[20vh] w-full">
+    <div class="overflow-hidden">
+      <div class="grid grid-flow-col items-center">
         <img
           src="https://uploads-ssl.webflow.com/632b4064ad80128baa5e2d27/6377fa80f3d6aadbc4f48c9e_sikoia-logo.png"
           loading="lazy"
@@ -11,7 +11,7 @@
           "
           sizes="(max-width: 479px) 200px, 210px"
           alt=""
-          class="scrolling-logo-image"
+          class="scrolling-logo-image content"
         />
 
         <img
@@ -25,7 +25,7 @@
           "
           sizes="(max-width: 479px) 200px, 210px"
           alt=""
-          class="scrolling-logo-image"
+          class="scrolling-logo-image content"
         />
 
         <img
@@ -39,7 +39,7 @@
           "
           sizes="(max-width: 479px) 200px, 210px"
           alt=""
-          class="scrolling-logo-image"
+          class="scrolling-logo-image content"
         />
 
         <img
@@ -51,7 +51,7 @@
           "
           sizes="(max-width: 479px) 200px, 210px"
           alt=""
-          class="scrolling-logo-image"
+          class="scrolling-logo-image content"
         />
 
         <img
@@ -64,7 +64,7 @@
           "
           sizes="(max-width: 479px) 200px, 210px"
           alt=""
-          class="scrolling-logo-image"
+          class="scrolling-logo-image content"
         />
 
         <img
@@ -77,7 +77,7 @@
           "
           sizes="(max-width: 479px) 200px, 210px"
           alt=""
-          class="scrolling-logo-image"
+          class="scrolling-logo-image content"
         />
 
         <img
@@ -92,7 +92,7 @@
           "
           sizes="(max-width: 479px) 200px, 210px"
           alt=""
-          class="scrolling-logo-image"
+          class="scrolling-logo-image content"
         />
 
         <img
@@ -106,7 +106,7 @@
           "
           sizes="(max-width: 479px) 200px, 210px"
           alt=""
-          class="scrolling-logo-image"
+          class="scrolling-logo-image content"
         />
       </div>
     </div>
@@ -119,4 +119,21 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.content {
+  animation: move 10s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+
+  /* 50% {
+    transform: translate(120vw);
+  } */
+  100% {
+    transform: translate(100vw);
+  }
+}
+</style>

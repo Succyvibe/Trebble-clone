@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-white shadow-md">
+    <div class="bg-white shadow-md fixed top-0 left-0 w-full z-20 h-[14vh]">
       <nav
         class="container px-6 py-8 mx-auto md:flex md:justify-between md:items-center"
       >
