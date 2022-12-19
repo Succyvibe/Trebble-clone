@@ -1,5 +1,5 @@
 <template>
-  <section class="mb-20 h-full overflow-hidden">
+  <section class="mt-20 overflow-hidden">
     <div class="container mx-auto" data-aos="flip-down">
       <div class="flex justify-center">
         <img

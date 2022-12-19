@@ -12,23 +12,23 @@
         data-aos-duration="800"
         data-aos-easing="ease"
       >
-        <div class="flex-1 p-20">
-          <div class="">
+        <div class="md:flex-1 md:p-20 lg:p-8">
+          <div class="text-center xl:text-start">
             <h1
-              class="md:text-[54px] lg:text-[44px] xl:text-[62px] font-semibold text-[#333]"
+              class="md:text-[54px] lg:text-[30px] xl:text-[44px] font-semibold text-[#333] mt-5 md:mt-0"
             >
-              Start automating your APIOps today
+              Don't waste time in roaming around, start learning Backed dev now
             </h1>
             <div
-              class="mt-10 flex flex-col items-center justify-center gap-3 md:flex-row space-x-2"
+              class="mt-10 mb-10 md:mb-0 flex flex-col items-center justify-center gap-3 md:flex-row space-x-2"
             >
               <button
-                class="bg-blue-800 px-[40px] py-[16px] border-[3px] border-blue-800 text-white text-lg rounded-[3px] cursor-pointer"
+                class="bg-blue-800 px-[40px] py-[16px] border-[3px] border-blue-800 text-white text-lg lg:text-sm xl:text-lg rounded-[3px] cursor-pointer hover:bg-white hover:text-blue-800"
               >
                 Get Started Now
               </button>
               <button
-                class="border-4 border-blue-800 px-[40px] py-[16px] rounded-[3px] cursor-pointer text-lg text-blue-800"
+                class="border-4 border-blue-800 px-[40px] py-[16px] rounded-[3px] cursor-pointer text-lg lg:text-sm xl:text-lg text-blue-800 hover:bg-blue-800 hover:text-white"
               >
                 Book a Demo
               </button>
@@ -38,9 +38,9 @@
         <div class="mx-auto lg:mx-0">
           <div class="inline-block">
             <div
-              class="md:w-[480px] lg:w-[440px] p-[32px] h-[500px] overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+              class="md:w-[480px] lg:w-[440px] p-[32px] h-[550px] overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
             >
-              <div>
+              <div class="">
                 <div class="flex">
                   <img
                     src="https://uploads-ssl.webflow.com/632b4064ad80128baa5e2d27/632b4065ad8012bb685e2dac_Group%20158.svg"
@@ -50,7 +50,7 @@
                   />
                 </div>
                 <div class="mt-10">
-                  <p class="font-semibold text-[20px]">
+                  <p class="font-semibold text-lg md:text-[20px]">
                     “...out of all the people, out of all the devs, I find
                     Treblle the most useful. Because I am not technical. Just
                     when you get to see what APIs are being called and when, and

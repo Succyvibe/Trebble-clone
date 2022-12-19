@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="bg-white shadow-md fixed top-0 left-0 w-full z-20 h-[14vh]">
+    <div class="bg-white shadow-md">
       <nav
-        class="container px-6 py-8 mx-auto md:flex md:justify-between md:items-center"
+        class="container px-6 py-8 mx-auto lg:flex md:justify-between md:items-center"
       >
         <div class="flex items-center justify-between">
           <router-link to="/">
@@ -14,7 +14,7 @@
             />
           </router-link>
           <!-- Mobile menu button -->
-          <div @click="showMenu = !showMenu" class="flex md:hidden">
+          <div @click="showMenu = !showMenu" class="flex lg:hidden">
             <button
               type="button"
               class="text-gray-800 hover:text-gray-400 focus:outline-none focus:text-gray-400"
@@ -32,7 +32,7 @@
         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
         <ul
           :class="showMenu ? 'flex' : 'hidden'"
-          class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 text-lg font-bold text-[#1b1b25] navbar-menu-wrapper"
+          class="flex-col mt-8 space-y-4 lg:flex lg:space-y-0 lg:flex-row lg:items-center lg:space-x-10 lg:mt-0 items-center"
         >
           <router-link to="/product">Product</router-link>
           <router-link to="/developers">Developers</router-link>
@@ -40,7 +40,7 @@
           <router-link to="/resources">Resources</router-link>
         </ul>
 
-        <div class="hidden md:flex">
+        <div class="hidden lg:flex">
           <button class="text-[#1b1b25] text-lg font-bold">Log In</button>
           <button
             class="border-[3px] border-blue-800 py-3 px-6 rounded-md text-blue-800 ml-4 text-lg font-bold"

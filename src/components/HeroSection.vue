@@ -1,24 +1,25 @@
 <template>
   <section>
     <div
-      class="md:w-[90%] h-[86vh] mx-auto md:pt-[80px] pr-[50px] pl-[50px] max-w-7xl flex flex-col justify-between"
+      class="md:w-[90%] h-[80vh] mx-auto md:pt-[80px] pr-[50px] pl-[50px] max-w-7xl flex flex-col justify-between"
     >
       <div class="h-full flex flex-col items-center justify-center">
         <div class="max-w-full header-wrapper">
           <h2
             class="center-h2-heading text-[36px] md:text-[58px] lg:text-[64px] mb-[40px] text-center"
           >
-            All-in-one platform for the entire API lifecycle
+            A great resource for backend engineers.
           </h2>
 
-          <div class="md:max-w-[560px] md:mx-auto">
-            <p class="w-full text-[#6c7285] text-center text-lg font-normal">
-              Treblle is a lightweight SDK that helps Engineering and DevOps
-              teams build, ship &amp; maintain REST based APIs faster
+          <div class="md:max-w-[560px] md:mx-auto text-center">
+            <p class="w-full text-[#6c7285] text-lg font-normal">
+              “I thought the blog was good. But the newsletter? Even better!”
             </p>
+            <strong class="text-[20px]">Katy Grey </strong>
+            <p class="text-blue-800 font-bold">Product Engineer, SPDC</p>
           </div>
           <div
-            class="mt-10 flex flex-col items-center justify-center gap-3 md:block"
+            class="mt-10 flex flex-col items-center justify-center gap-3 md:flex-row"
           >
             <button
               class="bg-blue-800 px-[40px] py-[16px] border-[3px] border-blue-800 text-white text-lg rounded-[3px] cursor-pointer"

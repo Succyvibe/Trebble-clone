@@ -8,10 +8,24 @@
       </h1>
     </div>
     <div class="wrapper">
-      <div class="flex justify-end mr-56">
+      <div class="flex justify-end mr-56 mb-10">
         <div class="btn-group">
-          <button @click="scroll_left">Scroll Left</button>
-          <button @click="scroll_right">Scroll Right</button>
+          <button @click="scroll_left">
+            <img
+              src="https://uploads-ssl.webflow.com/632b4064ad80128baa5e2d27/632b4065ad80124d465e2db1_Frame.svg"
+              loading="lazy"
+              alt=""
+              class="footer_social-icon"
+            />
+          </button>
+          <button @click="scroll_right" class="ml-10">
+            <img
+              src="https://uploads-ssl.webflow.com/632b4064ad80128baa5e2d27/632b4065ad8012ce645e2db2_Frame.svg"
+              loading="lazy"
+              alt=""
+              class="footer_social-icon"
+            />
+          </button>
         </div>
       </div>
       <div class="flex flex-col bg-white m-auto p-auto">
