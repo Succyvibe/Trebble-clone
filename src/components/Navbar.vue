@@ -38,6 +38,7 @@
           <router-link to="/developers">Developers</router-link>
           <router-link to="/pricing">Pricing</router-link>
           <router-link to="/resources">Resources</router-link>
+          <router-link to="/linktree">LinkTree</router-link>
         </ul>
 
         <div class="hidden lg:flex">
